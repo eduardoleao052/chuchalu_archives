@@ -79,19 +79,19 @@ function search(){
   let x = document.getElementById("sinput").value;
   console.log(x);
   if(x==("jogos")){
-    setTimeout(function(){window.open("http://127.0.0.1:5500/index/jogos.html", "_self");}, 150)
+    setTimeout(function(){window.open("/index/jogos.html", "_self");}, 150)
   }
   else if(searchtest(x,["mon", "masks", "masks of nyarlathotep", "nyarlathotep"])==true){
-    setTimeout(function(){window.open("http://127.0.0.1:5500/index/campanhas/mon.html", "_self");}, 150)
+    setTimeout(function(){window.open("/index/campanhas/mon.html", "_self");}, 150)
   }
   else if(searchtest(x,["campanhas", "historias", "aventuras", "sessoes", "capitulos"])==true){
-    setTimeout(function(){window.open("http://127.0.0.1:5500/index/campanhas.html", "_self");}, 150)
+    setTimeout(function(){window.open("/index/campanhas.html", "_self");}, 150)
   }
   else if(searchtest(x,["coc", "call of cthulhu", "lovecraft", "terror", "horror"])==true){
-    setTimeout(function(){window.open("http://127.0.0.1:5500/index/jogos/coc.html", "_self");}, 150)
+    setTimeout(function(){window.open("/index/jogos/coc.html", "_self");}, 150)
   }
   else if(searchtest(x,["jogos", "sistemas", "rpg"])==true){
-    setTimeout(function(){window.open("http://127.0.0.1:5500/index/jogos.html", "_self");}, 150)
+    setTimeout(function(){window.open("/index/jogos.html", "_self");}, 150)
   }
   
 
