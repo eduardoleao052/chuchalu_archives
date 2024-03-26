@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+            <link rel="stylesheet" href="/chuchaluheader.css">
+            <link rel="stylesheet" href="/chuchaluhome.css">
+            <link rel="stylesheet" href="/chuchaluindex.css">
+            <link rel="stylesheet" href="/chuchalucontent.css">
+            <title> ChucaluArchives/jogos/coc </title>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="all">
+            <div class="index">
+                <div class="din0">
+                    <button class="bh2" onclick="opensidebar()">
+                        <img style="width: 100%;" src="/misc/hamburger-menu.svg">
+                    </button>
+                </div>
+                <a href="http://127.0.0.1:5500/main.html">
+                <div class="din">
+                    <img class="bin" src="/misc/castle.png">
+                    <p class="pi">Página Inicial</p>
+                </div>
+                </a>
+                <a href="http://127.0.0.1:5500/index/jogos.html">
+                <div class="din">
+                    <img class="bin" src="/misc/role-playing.png">
+                    <p class="pi">Jogos</p>
+                </div>
+                </a>
+                <a href="http://127.0.0.1:5500/index/campanhas.html">
+                <div class="din">
+                    <img class="bin" src="/misc/open-book.png">
+                    <p class="pi">Campanhas</p>
+                </div>
+                </a>
+                <a href="http://127.0.0.1:5500/index/personagens.html">
+                <div class="din">
+                    <img class="bin" src="/misc/theater.png">
+                    <p class="pi">Personagens</p>
+                </div>
+                </a>
+                <a href="http://127.0.0.1:5500/index/misc.html">
+                <div class="din">
+                    <img class="bin" src="/misc/folder.png">
+                    <p class="pi">Arquivos</p>
+                </div>
+                </a>
+            </div>
+    <div style="flex: 1; display: inline-block;">
+
+
+        <div class="header">
+            <div class="headerleft">
+                <img style="height: 100%; display: inline-block;" src="/misc/brand_cthulhu_icon_158944.svg">
+                <a class="logo" href="http://127.0.0.1:5500/main.html"> Chuchalu Archives </a>
+            </div>
+            <div class="headermid">
+                <input class = "searchbar" type="text" placeholder="Search">
+                <button class="bhs">
+                    <img style="height: 70%;" src="/misc/search.svg">
+                    <p class="tooltip">Search</p>
+                </button>
+                <div class="bh" style="background-color: light-gray;">
+                    <img style="width: 30px; display: inline-block;" src="/misc/voice-search-icon.svg">
+                    <p class="tooltip">Search With Your Voice</p>
+                </div>
+            </div>
+            <div class="headerright">
+                <div class="bh" style="flex: 1;">
+                    <img style="width: 60%;" src="/misc/upload.svg">
+                    <p class="tooltip">Upload</p>
+                </div>
+                <div class="bh" style="flex: 1;">
+                    <img style="width: 60%;" src="/misc/youtube-apps.svg">
+                    <p class="tooltip">Miscellaneous</p>
+                </div>
+                <div class="bh" style="flex: 1;">
+                    <p class="notifications">3</p>
+                    <img style="width: 60%;" src="/misc/notifications.svg">
+                    <p class="tooltip">Notifications</p>
+                </div>
+            </div>   
+        </div>
+    </div> 
+
+    
+    <div class="content">
+        <div class="parallax">
+            
+        </div>
+        <div id="textbox" class="textbox">
+            <div class="theader">
+                <u>Call of Cthulhu</u>
+                <div class="sign">
+                    <img style="width: 100%; margin-top: 20px;" src="/misc/role-playing.png">
+                </div>
+            </div>
+            <div onclick="resizetextbox()" class="tbh">
+            <img class="t-img" id="resizetextbox" src="/misc/resizeclose.svg">
+            </div>
+            <div class="tquote"> 
+                <i> "The most merciful thing in the world - i think - </i>
+                <i> is the inability of the human mind to correlate all its contents." </i>
+                <p class="tquoteauthor" style="margin-left: 230px;">H.P. Lovecraft, 1928 </p>
+            </div>
+            <div class="ttext"> 
+                <p class="pt" style="margin-top: 50px; width: 60%;"> Bem vindo às profundezas de <b>Call of Cthulhu</b>. 
+                    Aqui, você encontrará tudo sobre esse sistema desafiador, no qual cada engano pode significar morte.</p>
+                <p class="pt"> Explore com cuidado as <a class="link" href="http://127.0.0.1:5500/index/dnd/campanhas.html">campanhas</a> jogadas nesse sistema, onde você encontrará arquivos sobre
+                    acontecimentos em sessões e sobre os pobres personagens envolvidos. </p>
+                <p style="margin-top: 50px;"class="pt"> Agora, algumas informações sobre as origens de <b>Call of Cthulhu.</b> </p>
+                <p class="pt"> 
+                    O sistema foi criado em...
+                </p>
+            </div>
+            <div class="home">
+            <div class="video big">
+                <a href="http://127.0.0.1:5500/index/campanhas/mon.html">
+                <div class="thumbnaildiv">
+                    <img class ="thumbnail" src="/misc/masksof.jpeg">
+                </div>
+                </a>
+                <a href="http://127.0.0.1:5500/index/campanhas/mon.html">
+                <div class = "text">
+                        <div class="channeldiv">
+                            <img class ="channel" src="/misc/horus-eye.png">
+                        </div>
+    
+                        <div class="info">
+                            <p class="title"> 
+                               Masks of Nyarlathotep
+                            </p>
+                            <p class="stats">
+                                Campanha - 56 sessões
+                            </p>
+                            <p class="author">
+                                Um épico nos anos 20, carregado de mistério e doses de desespero e esperança.
+                            </p>
+                        </div>
+                </div>
+                </a>
+            </div>
+            <div class="mini video">
+                <a href="http://127.0.0.1:5500/index/jogos/dnd.html">
+                <div class="thumbnaildiv">
+                    <img class ="thumbnail" src="/misc/alaska.jpg">
+                </div>
+                </a>
+                <a href="http://127.0.0.1:5500/index/jogos/dnd.html">
+                <div class = "text">
+                        <div class="channeldiv">
+                            <img class ="channel" src="/misc/christmas-stars.png">
+                        </div>
+    
+                        <div class="info">
+                            <p class="title"> 
+                               Alaska
+                            </p>
+                            <p class="stats">
+                                One-shot
+                            </p>
+                            <p class="author">
+                                Onde tudo começou - uma aventura nos picos do Alaska, tão amedrontadora quanto perigosa.
+                            </p>
+                        </div>
+                </div>
+                </a>
+            </div>
+            <div class="mini video">
+                <a href="http://127.0.0.1:5500/index/jogos/dnd.html">
+                <div class="thumbnaildiv">
+                    <img class ="thumbnail" src="/misc/cobrando.png">
+                </div>
+                </a>
+                <a href="http://127.0.0.1:5500/index/jogos/dnd.html">
+                <div class = "text">
+                        <div class="channeldiv">
+                            <img class ="channel" src="/misc/hat.png">
+                        </div>
+    
+                        <div class="info">
+                            <p class="title"> 
+                               Cobrando Dívidas
+                            </p>
+                            <p class="stats">
+                                One-shot
+                            </p>
+                            <p class="author">
+                                Direto dos becos de Arkham, uma gangue de mafiosos investiga um roubo peculiar na Universidade Miskatonic.
+                            </p>
+                        </div>
+                </div>
+                </a>
+            </div>
+            <div class="mini video">
+                <a href="http://127.0.0.1:5500/index/jogos/dnd.html">
+                <div class="thumbnaildiv">
+                    <img class ="thumbnail" src="/misc/blackwater.jpg">
+                </div>
+                </a>
+                <a href="http://127.0.0.1:5500/index/jogos/dnd.html">
+                <div class = "text">
+                        <div class="channeldiv">
+                            <img class ="channel" src="/misc/tentacles.png">
+                        </div>
+    
+                        <div class="info">
+                            <p class="title"> 
+                               Blackwater Creek
+                            </p>
+                            <p class="stats">
+                                One-shot
+                            </p>
+                            <p class="author">
+                                Nos bosques de Lovecraft Country, a cidadezinha de BlackWater Creek esconde um terrível segredo. 
+                            </p>
+                        </div>
+                </div>
+                </a>
+            </div>
+            
+
+
+            <div class="video">
+                <a href="http://127.0.0.1:5500/index/jogos/coc.html">
+                <div class="thumbnaildiv">
+                    <img class ="thumbnail" src="/misc/yellow.webp">
+                </div>
+                </a>
+                <a href="http://127.0.0.1:5500/index/jogos/coc.html">
+                <div class = "text">
+                        <div class="channeldiv">
+                            <img class ="channel" src="/misc/tentacles.png">
+                        </div>
+    
+                        <div class="info">
+                            <p class="title">
+                                Mists of Hastur
+                            </p>
+                            <p class="author">
+                                Nas penumbras dos Estados Unidos dos anos 80, um grupo de investigadores se encontram no meio de uma conspiração letal.
+                            </p>
+                        </div>
+                </div>
+                </a>
+            </div>
+
+            </div>
+        </div>
+
+        </div>
+
+        
+    </div>
+
+<div onclick="closesidebar()" id="darkmode" class="darkmode">
+</div>
+<div id="menu" class="menu">
+    <div class="expsidebar0">
+        <div class="bh3" onclick="closesidebar()">
+            <img style="width: 75%;" src="/misc/hamburger-menu.svg">
+        </div>
+    </div>
+    <a href="http://127.0.0.1:5500/main.html">
+    <div class="expsidebar1">
+        <img class="bi" src="/misc/castle.png">
+        <p class="pei">Página Inicial</p>
+    </div>
+    </a>
+    <div id="expsidebarjogos" class="expsidebar1current">
+        <img class="bi" src="/misc/role-playing.png">
+        <a href="http://127.0.0.1:5500/index/jogos.html">
+        <p class="pei">Jogos</p>
+        </a>
+        <div onclick="slidejogos()" id="barrow" class="barrow">
+        <img class="arrow" id="arrowj" src="/misc/arrow.png">
+        </div>
+            <div id="jogos" class="jogos">
+                <a href="http://127.0.0.1:5500/index/jogos/dnd.html">
+                <div class="expsidebar1">
+                    <img class="bi" src="/misc/ogre.png">
+                    <p class="pei">D&D</p>
+                    
+                </div>
+                </a>
+                <a href="http://127.0.0.1:5500/index/jogos/coc.html">
+                <div class="expsidebar1">
+                    <img class="bi" src="/misc/tentacles.png">
+                    <p class="pei">Call of Cthulhu</p>
+                    
+                </div>
+                </a>
+            </div>
+        </div>
+    <div id="expsidebarcampanhas" class="expsidebar1">
+        <img class="bi" src="/misc/open-book.png">
+        <a href="http://127.0.0.1:5500/index/campanhas.html">
+        <p class="pei">Campanhas</p>
+        </a>
+        <div onclick="slidecampanhas()" id="barrow" class="barrow">
+        <img class="arrow" id="arrowc" src="/misc/arrow.png">
+        </div>
+        <div id="campanhas" class="jogos">
+            <a href="http://127.0.0.1:5500/index/campanhas/bdp.html">
+            <div class="expsidebar1">
+                <img class="bi" src="/misc/origami.png">
+                <p class="pei">BdP</p>
+            </div>
+            </a>
+            <a href="http://127.0.0.1:5500/index/campanhas/mon.html">
+            <div class="expsidebar1">
+                <img class="bi" src="/misc/horus-eye.png">
+                <p class="pei">MoN</p>
+            </div>
+            </a>
+            <a href="http://127.0.0.1:5500/index/campanhas/moh.html">
+            <div class="expsidebar1">
+                <img class="bi" src="/misc/mist.png">
+                <p class="pei">MoH</p>
+            </div>
+            </a>
+        </div>
+    </div>
+
+    <div style="
+    margin: 5px 0;
+    margin-left: 5px;
+    width: 240px;
+    height: 1.2px;
+    background-color: rgb(152, 152, 152);">
+    </div>
+
+    <div id="expsidebarpersonagens" class="expsidebar1">
+        <img class="bi" src="/misc/theater.png">
+        <a href="http://127.0.0.1:5500/index/personagens.html">
+        <p class="pei">Personagens</p>
+        </a>
+        <div onclick="slidepersonagens()" id="barrow" class="barrow">
+        <img class="arrow" id="arrowp" src="/misc/arrow.png">
+        </div>
+        <div id="pcampanhas" class="jogos">
+            <a href="http://127.0.0.1:5500/index/campanhas/bdp.html">
+            <div class="expsidebar1">
+                <img class="bi" src="/misc/origami.png">
+                <p class="pei">BdP</p>
+            </div>
+            </a>
+            <a href="http://127.0.0.1:5500/index/campanhas/mon.html">
+            <div class="expsidebar1">
+                <img class="bi" src="/misc/horus-eye.png">
+                <p class="pei">MoN</p>
+            </div>
+            </a>
+            <a href="http://127.0.0.1:5500/index/campanhas/moh.html">
+            <div class="expsidebar1">
+                <img class="bi" src="/misc/mist.png">
+                <p class="pei">MoH</p>
+            </div>
+            </a>
+        </div>
+    </div>
+    <div id="expsidebararquivos" class="expsidebar1">
+        <img class="bi" src="/misc/folder.png">
+        <a href="http://127.0.0.1:5500/index/misc.html">
+        <p class="pei">Arquivos</p>
+        </a>
+        <div onclick="slidearquivos()" id="barrow" class="barrow">
+        <img class="arrow" id="arrowa" src="/misc/arrow.png">
+        </div>
+        <div id="acampanhas" class="jogos">
+            <a href="http://127.0.0.1:5500/index/campanhas/bdp.html">
+            <div class="expsidebar1">
+                <img class="bi" src="/misc/origami.png">
+                <p class="pei">BdP</p>
+            </div>
+            </a>
+            <a href="http://127.0.0.1:5500/index/campanhas/mon.html">
+            <div class="expsidebar1">
+                <img class="bi" src="/misc/horus-eye.png">
+                <p class="pei">MoN</p>
+            </div>  
+            </a>
+            <a href="http://127.0.0.1:5500/index/campanhas/moh.html">
+            <div class="expsidebar1">
+                <img class="bi" src="/misc/mist.png">
+                <p class="pei">MoH</p>
+            </div>
+            </a>
+        </div>
+    </div>
+               
+    </div>
+    <div class="endbar"></div>
+</div>
+
+<style>
+    .parallax:after{
+        background-image: url("/misc/cthulhubg.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        left: -5px;
+        right: 0px;
+        bottom: -1000px;
+        z-index: -1;
+        content: "";
+        transform: translateZ(-2px) scale(3);
+        -webkit-transform: translateZ(-2px) scale(3);
+    }
+    .home{
+        column-gap: 20px;
+    }
+    </style>
+
+<script src="/chuchalu.js">
+</script>
+</body>
+</html>
